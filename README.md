@@ -1,2 +1,2 @@
-# R
-Accumulating R stuff
+# READ.me
+Accumulating R stuff.
