@@ -39,7 +39,7 @@ if(nrow(plot_data) > 0) {
         geom_point() +
         geom_line(data = data.frame(Concentration = plot_data$Concentration, 
                                     Fit = predict(logistic_model)), aes(y = Fit), color = "blue") +
-        geom_vline(xintercept = ec50_log_estimate, linetype = "dashed", color = "grey") +
+        geom_vline(xintercept = ec50_log_estimate, linetype = "dashed", color = "red") +
         annotate("text", x = ec50_log_estimate, y = max(plot_data$PercentUnfolded), 
                  label = paste("EC50: ", round(ec50_estimate, 2), " "), 
                  hjust = 1, vjust = 1, color = "red") +
