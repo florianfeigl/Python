@@ -1,5 +1,8 @@
 # Specifications
 
+### Language
+R
+
 ### Purpose
 Creates a Boltzmann Sigmoid Plot of given data.
 
